@@ -1,9 +1,8 @@
 import React from 'react'
 
 const Aside = () => {
-    const
   return (
-    <div>Footer</div>
+    <div>Aside</div>
   )
 }
 

@@ -1,10 +1,9 @@
 import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+const Main =({content='컨텐츠 입니다.', bgColor}) =>{
+  return(
+    <div style={{backgroundColor:bgColor}}></div>
+  )
+}
+
+export default Main

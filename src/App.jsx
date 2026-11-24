@@ -1,19 +1,15 @@
 
 import './App.css'
-import Header from './components/Header'
-import Footer from './components/footer'
-import Scetion from './components/Scetion'
+import Header from './components/LifeCycli'
+
+
 function App() {
-  
-const getGreeting=(name)=>`안녕 ${name}`
-  return (
-    <main>
-     <Header/>
-  <Footer/>     
-     <h1>Hello React</h1>
-     <p>{getGreeting('Alice')}</p>
+
+ return(
+  <main>
+    
     </main>
-  )
+ )
 }
 
 export default App
