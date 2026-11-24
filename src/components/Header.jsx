@@ -1,15 +1,12 @@
 import React from 'react'
 
-const Header = () => {
-    const menus =[
-        {id:1,name:'page1'},
-        {id:2,name:'page1'},
-        {id:3,name:'page1'},
-        {id:4,name:'page1'},
-        {id:5,name:'page1'},
-    ]
-  return(
-    <header>
-        <h1></h1>
+const Header = ({title,total}) => {
+  return (
+    <header className='header'>
+      <h1>{title}</h1>
+      <p>지금까지 <strong>{total}</strong>표</p>
     </header>
   )
+}
+
+export default Header
